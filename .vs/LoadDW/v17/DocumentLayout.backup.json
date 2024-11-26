@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\LoadDW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\services\\dataservicedw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\services\\dataservicedw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0DD79-BFA6-4140-B748-BAC80AB75D48}|LoadDW.WorkerService\\LoadDW.WorkerService.csproj|c:\\projects\\loaddw\\loaddw.workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D0DD79-BFA6-4140-B748-BAC80AB75D48}|LoadDW.WorkerService\\LoadDW.WorkerService.csproj|solutionrelative:loaddw.workerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\dw\\dimsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\dw\\dimsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\northwind\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\northwind\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\context\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\context\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\context\\dwcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\context\\dwcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\interfaces\\idataservicedw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\interfaces\\idataservicedw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0DD79-BFA6-4140-B748-BAC80AB75D48}|LoadDW.WorkerService\\LoadDW.WorkerService.csproj|c:\\projects\\loaddw\\loaddw.workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D0DD79-BFA6-4140-B748-BAC80AB75D48}|LoadDW.WorkerService\\LoadDW.WorkerService.csproj|solutionrelative:loaddw.workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\dw\\dimshipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\dw\\dimshipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\dw\\dimproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\dw\\dimproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\dw\\dimcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\dw\\dimcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\dw\\dimemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\dw\\dimemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\dw\\dimcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\dw\\dimcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\northwind\\shipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\northwind\\shipper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\northwind\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\northwind\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\northwind\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\northwind\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\northwind\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\northwind\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\entities\\northwind\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\entities\\northwind\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D0DD79-BFA6-4140-B748-BAC80AB75D48}|LoadDW.WorkerService\\LoadDW.WorkerService.csproj|c:\\projects\\loaddw\\loaddw.workerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9D0DD79-BFA6-4140-B748-BAC80AB75D48}|LoadDW.WorkerService\\LoadDW.WorkerService.csproj|solutionrelative:loaddw.workerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|c:\\projects\\loaddw\\loaddw.data\\result\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD9C68E3-B2A3-4107-B689-0A8E446EBC5D}|LoadDW.Data\\LoadDW.Data.csproj|solutionrelative:loaddw.data\\result\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DimProduct.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimProduct.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\DW\\DimProduct.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimProduct.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\DW\\DimProduct.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:42:50.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DimShipper.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimShipper.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\DW\\DimShipper.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimShipper.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\DW\\DimShipper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:43:42.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.WorkerService\\Worker.cs",
+              "RelativeDocumentMoniker": "LoadDW.WorkerService\\Worker.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.WorkerService\\Worker.cs",
+              "RelativeToolTip": "LoadDW.WorkerService\\Worker.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:16:57.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDataServiceDw.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Interfaces\\IDataServiceDw.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Interfaces\\IDataServiceDw.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Interfaces\\IDataServiceDw.cs",
+              "RelativeToolTip": "LoadDW.Data\\Interfaces\\IDataServiceDw.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAtwBEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:54:53.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DimSupplier.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimSupplier.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\DW\\DimSupplier.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimSupplier.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\DW\\DimSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:44:24.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Product.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\Northwind\\Product.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Product.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\Northwind\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:35:10.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Shipper.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Shipper.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\Northwind\\Shipper.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Shipper.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\Northwind\\Shipper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:17:54.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataServiceDw.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Services\\DataServiceDw.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Services\\DataServiceDw.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Services\\DataServiceDw.cs",
+              "RelativeToolTip": "LoadDW.Data\\Services\\DataServiceDw.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAjwMEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:59:37.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Context\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Context\\NorthwindContext.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Context\\NorthwindContext.cs",
+              "RelativeToolTip": "LoadDW.Data\\Context\\NorthwindContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:21:54.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DwContext.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Context\\DwContext.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Context\\DwContext.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Context\\DwContext.cs",
+              "RelativeToolTip": "LoadDW.Data\\Context\\DwContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:49:22.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Supplier.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\Northwind\\Supplier.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Supplier.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\Northwind\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:18:24.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.WorkerService\\Program.cs",
+              "RelativeDocumentMoniker": "LoadDW.WorkerService\\Program.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.WorkerService\\Program.cs",
+              "RelativeToolTip": "LoadDW.WorkerService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:16:54.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DimCategory.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimCategory.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\DW\\DimCategory.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimCategory.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\DW\\DimCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:57:38.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DimCustomer.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimCustomer.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\DW\\DimCustomer.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimCustomer.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\DW\\DimCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:44:48.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DimEmployee.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimEmployee.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\DW\\DimEmployee.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\DW\\DimEmployee.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\DW\\DimEmployee.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:40:41.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Employee.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\Northwind\\Employee.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Employee.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\Northwind\\Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:31:58.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Customer.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\Northwind\\Customer.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Customer.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\Northwind\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:17:02.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Category.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Entities\\Northwind\\Category.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Entities\\Northwind\\Category.cs",
+              "RelativeToolTip": "LoadDW.Data\\Entities\\Northwind\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:39:38.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Class1.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Class1.cs",
+              "RelativeToolTip": "LoadDW.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:12:15.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.WorkerService\\appsettings.json",
+              "RelativeDocumentMoniker": "LoadDW.WorkerService\\appsettings.json",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.WorkerService\\appsettings.json",
+              "RelativeToolTip": "LoadDW.WorkerService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T23:32:11.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\projects\\LoadDW\\LoadDW.Data\\Result\\OperationResult.cs",
+              "RelativeDocumentMoniker": "LoadDW.Data\\Result\\OperationResult.cs",
+              "ToolTip": "C:\\projects\\LoadDW\\LoadDW.Data\\Result\\OperationResult.cs",
+              "RelativeToolTip": "LoadDW.Data\\Result\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:52:45.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
