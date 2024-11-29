@@ -24,7 +24,9 @@ namespace LoadDW.WorkerService
                     _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
 
                     using (var scope = _scopeFactory.CreateScope()) {
+
                         var dataService = scope.ServiceProvider.GetRequiredService<IDataServiceDw>();
+
                         var result = await dataService.LoadDHW();
                     }
 

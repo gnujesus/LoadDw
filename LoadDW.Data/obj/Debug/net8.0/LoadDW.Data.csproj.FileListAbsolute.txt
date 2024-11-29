@@ -10,3 +10,4 @@ C:\projects\LoadDW\LoadDW.Data\obj\Debug\net8.0\refint\LoadDW.Data.dll
 C:\projects\LoadDW\LoadDW.Data\obj\Debug\net8.0\LoadDW.Data.pdb
 C:\projects\LoadDW\LoadDW.Data\obj\Debug\net8.0\ref\LoadDW.Data.dll
 C:\projects\LoadDW\LoadDW.Data\obj\Debug\net8.0\LoadDW.Data.csproj.AssemblyReference.cache
+C:\projects\LoadDW\LoadDW.Data\obj\Debug\net8.0\LoadDW.Data.sourcelink.json

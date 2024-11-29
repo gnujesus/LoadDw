@@ -88,3 +88,4 @@ C:\projects\LoadDW\LoadDW.WorkerService\bin\Debug\net8.0\runtimes\win\lib\net6.0
 C:\projects\LoadDW\LoadDW.WorkerService\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\projects\LoadDW\LoadDW.WorkerService\bin\Debug\net8.0\LoadDW.Data.dll
 C:\projects\LoadDW\LoadDW.WorkerService\bin\Debug\net8.0\LoadDW.Data.pdb
+C:\projects\LoadDW\LoadDW.WorkerService\obj\Debug\net8.0\LoadDW.WorkerService.sourcelink.json

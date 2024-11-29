@@ -32,7 +32,7 @@ namespace LoadDW.Data.Services
                 {
                     CustomerID = cust.CustomerID,
                     CompanyName = cust.CompanyName
-                }).ToList();
+                }).AsNoTracking().ToList();
 
                 await _dwContext.DimCustomers.AddRangeAsync(customers);
                 await _dwContext.DimCustomers.ExecuteDeleteAsync();
@@ -58,7 +58,7 @@ namespace LoadDW.Data.Services
                     EmployeeID = emp.EmployeeID,
                     FirstName = emp.FirstName,
                     LastName = emp.LastName
-                }).ToList();
+                }).AsNoTracking().ToList();
 
                 await _dwContext.DimEmployees.AddRangeAsync(employees);
                 await _dwContext.DimEmployees.ExecuteDeleteAsync();
@@ -85,7 +85,7 @@ namespace LoadDW.Data.Services
                     ProductName = prod.ProductName,
                     CategoriesID = prod.CategoryID,
                     SuppliersID = prod.SupplierID
-                }).ToList();
+                }).AsNoTracking().ToList();
 
                 await _dwContext.DimProducts.AddRangeAsync(products);
                 await _dwContext.DimProducts.ExecuteDeleteAsync();
@@ -110,7 +110,7 @@ namespace LoadDW.Data.Services
                 {
                     ShipperID = ship.ShipperID,
                     CompanyName = ship.CompanyName
-                }).ToList();
+                }).AsNoTracking().ToList();
 
                 await _dwContext.DimShippers.AddRangeAsync(shippers);
                 await _dwContext.DimShippers.ExecuteDeleteAsync();
@@ -135,7 +135,7 @@ namespace LoadDW.Data.Services
                 {
                     SuppliersID = supp.SupplierID,
                     CompanyName = supp.CompanyName
-                }).ToList();
+                }).AsNoTracking().ToList();
 
                 await _dwContext.DimSuppliers.AddRangeAsync(suppliers);
                 await _dwContext.DimSuppliers.ExecuteDeleteAsync();
@@ -164,7 +164,7 @@ namespace LoadDW.Data.Services
                                 CategoryName = c.CategoryName,
                             };
 
-                var categories = query.ToList();
+                var categories = query.AsNoTracking().ToList();
 
                 await _dwContext.DimCategories.AddRangeAsync(categories);
                 await _dwContext.DimCategories.ExecuteDeleteAsync();
@@ -179,18 +179,51 @@ namespace LoadDW.Data.Services
             return result;
         }
 
+        public async Task<OperationResult> LoadFactSales() {
+            OperationResult result = new OperationResult();
+
+            try {
+                var sales = await _northwindContext.VWSales.AsNoTracking().ToListAsync();
+            } 
+            catch (Exception ex) {
+                result.Success = false;
+                result.Message = $"Error loading FactSales: {ex.Message}";
+            }
+
+            return result;
+        }
+        public async Task<OperationResult> LoadFactServedClients() {
+            OperationResult result = new OperationResult();
+
+            try {
+                var customersServedByEmployees = await _northwindContext.VWCustomersServedByEmployees.AsNoTracking().ToListAsync();
+            } 
+            catch (Exception ex) {
+                result.Success = false;
+                result.Message = $"Error loading FactSales: {ex.Message}";
+            }
+
+            return result;
+        }
+
         public async Task<OperationResult> LoadDHW()
         {
 
             OperationResult result = new OperationResult();
             try
             {
+                /*
                 await this.LoadDimCategory();
                 await this.LoadDimCustomer();
                 await this.LoadDimSupplier();
                 await this.LoadDimProduct();
                 await this.LoadDimShipper();
                 await this.LoadDimEmployee();
+                */
+
+                await this.LoadFactSales();
+                await this.LoadFactServedClients();
+
                 result.Success = true;
                 result.Message = "Success";
                 return result;
@@ -201,5 +234,6 @@ namespace LoadDW.Data.Services
                 return result;
             }
         }
+
     }
 }
