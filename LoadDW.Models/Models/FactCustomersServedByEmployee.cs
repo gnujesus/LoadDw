@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace LoadDW.Models.Models;
 
-public partial class CustomersServedByEmployee
+public partial class FactCustomersServedByEmployee
 {
-    public string FirstName { get; set; }
+    public int CustomersServedByEmployeeId { get; set; }
 
-    public string LastName { get; set; }
+    public int? EmployeeKey { get; set; }
 
-    public int? TotalCustomers { get; set; }
+    public int? TotalClients { get; set; }
 }

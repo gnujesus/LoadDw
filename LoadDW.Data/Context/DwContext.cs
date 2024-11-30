@@ -18,6 +18,8 @@ namespace LoadDW.Data.Context
         public DbSet<DimShipper> DimShippers { get; set; }
         public DbSet<DimSupplier> DimSuppliers { get; set; }
         public DbSet<DimCategory> DimCategories { get; set; }
+        public DbSet<FactOrder> FactOrders { get; set; }
+        public DbSet<FactCustomersServedByEmployee> FactCustomersServedByEmployees { get; set; }
         #endregion
 
     }

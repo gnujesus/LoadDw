@@ -51,6 +51,9 @@ namespace LoadDW.Data.Context
 
                     entity.Property(e => e.ShipperId)
                           .HasColumnName("ShipperID");
+
+                    entity.Property(e => e.ProductId)
+                          .HasColumnName("ProductID");
             });
 
             modelBuilder.Entity<VWCustomersServedByEmployee>(entity => {

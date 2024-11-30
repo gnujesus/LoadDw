@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoadDW.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2ea899bbc93eb742c7e715c7e4b6d65d4016ff6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cfa7f14697c7541adba29471f7d673126cd3735")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoadDW.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoadDW.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

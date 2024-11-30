@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LoadDW.Data.Context;
 using LoadDW.Data.Entities.DW;
+using LoadDW.Data.Entities.Northwind;
 using LoadDW.Data.Interfaces;
 using LoadDW.Data.Result;
 using Microsoft.EntityFrameworkCore;
@@ -184,6 +185,44 @@ namespace LoadDW.Data.Services
 
             try {
                 var sales = await _northwindContext.VWSales.AsNoTracking().ToListAsync();
+
+                await _dwContext.FactOrders.ExecuteDeleteAsync();
+
+                foreach (var cd in sales)
+                {
+                    var customer = await _dwContext.DimCustomers
+                        .SingleOrDefaultAsync(c=> c.CustomerID == cd.CustomerId);
+
+                    var employee = await _dwContext.DimEmployees
+                        .SingleOrDefaultAsync(e => e.EmployeeID== cd.EmployeeId);
+
+                    var shipper = await _dwContext.DimShippers
+                        .SingleOrDefaultAsync(s => s.ShipperID == cd.ShipperId);
+
+                    var product = await _dwContext.DimProducts
+                        .SingleOrDefaultAsync(p => p.ProductID == cd.ProductId);
+
+                    FactOrder factOrder = new FactOrder()
+                    {
+
+                        TotalSales = cd.TotalVentas,
+                        Country = cd.Country,
+                        CustomerKey = customer.CustomerKey,
+                        CustomerId = customer.CustomerID,
+                        EmployeeKey = employee.EmployeeKey,
+                        EmployeeId = employee.EmployeeID,
+                        DateKey = cd.DateKey,
+                        Shipper = shipper.ShipperKey,
+                        Quantity = cd.Cantidad,
+                        ProductKey = product.ProductID,
+                    };
+
+                    await _dwContext.FactOrders.AddAsync(factOrder);
+
+                    await _dwContext.SaveChangesAsync();
+                }
+
+
             } 
             catch (Exception ex) {
                 result.Success = false;
@@ -192,11 +231,37 @@ namespace LoadDW.Data.Services
 
             return result;
         }
+        
         public async Task<OperationResult> LoadFactServedClients() {
             OperationResult result = new OperationResult();
 
             try {
                 var customersServedByEmployees = await _northwindContext.VWCustomersServedByEmployees.AsNoTracking().ToListAsync();
+
+                await _dwContext.FactCustomersServedByEmployees.ExecuteDeleteAsync();
+
+                foreach (var cd in customersServedByEmployees)
+                {
+                    //copilot, use the class FactCustomerServedByEmployee and replicate the behavior of the 
+                    // method LoadFactSales, but here
+
+                    var employee = await _dwContext.DimEmployees
+                        .SingleOrDefaultAsync(e => e.EmployeeID == cd.EmployeeKey);
+
+                    FactCustomersServedByEmployee factCustomersServedByEmployee =
+                        new FactCustomersServedByEmployee()
+                        {
+                            EmployeeKey = cd.EmployeeKey,
+                            FirstName = cd.FirstName,
+                            LastName = cd.LastName,
+                            TotalClients = cd.TotalCustomers
+                        };
+                    
+                    await _dwContext.FactCustomersServedByEmployees.AddAsync(factCustomersServedByEmployee);
+
+                    await _dwContext.SaveChangesAsync();
+                }
+
             } 
             catch (Exception ex) {
                 result.Success = false;
@@ -221,7 +286,7 @@ namespace LoadDW.Data.Services
                 await this.LoadDimEmployee();
                 */
 
-                await this.LoadFactSales();
+                // await this.LoadFactSales();
                 await this.LoadFactServedClients();
 
                 result.Success = true;

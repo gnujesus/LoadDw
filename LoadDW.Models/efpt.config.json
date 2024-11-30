@@ -1,6 +1,6 @@
 ﻿{
    "CodeGenerationMode": 4,
-   "ContextClassName": "NorthwindContext",
+   "ContextClassName": "NorthwindNewContext",
    "ContextNamespace": null,
    "FilterSchemas": false,
    "IncludeConnectionString": false,
@@ -15,8 +15,8 @@
    "T4TemplatePath": null,
    "Tables": [
       {
-         "Name": "[dbo].[CustomersServedByEmployee]",
-         "ObjectType": 3
+         "Name": "[dbo].[FactCustomersServedByEmployee]",
+         "ObjectType": 0
       }
    ],
    "UiHint": null,

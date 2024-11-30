@@ -8,6 +8,9 @@ namespace LoadDW.Data.Entities.Northwind;
 
 public class VWCustomersServedByEmployee
 {
+
+    public int? EmployeeKey { get; set; }
+
     public string FirstName { get; set; }
 
     public string LastName { get; set; }
